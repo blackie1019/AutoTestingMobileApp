@@ -27,7 +27,6 @@ export default class app extends Component {
           Cmd+D or shake for dev menu
         </Text>
       </View>
-      // <ListViewDemo></ListViewDemo>
     );
   }
 }

@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import Main from './src/components/Main';
 
-class Demo extends Component {
+class test extends Component {
   render() {
     return (
       <Main />
@@ -16,4 +16,4 @@ class Demo extends Component {
   }
 }
 
-AppRegistry.registerComponent('Demo', () => Demo);
+AppRegistry.registerComponent('test', () => test);

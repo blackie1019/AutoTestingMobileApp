@@ -6,8 +6,11 @@ import MottoListContainer from '../../containers/MottoListContainer';
 import ActionButtonContainer from '../../containers/ActionButtonContainer';
 import InputModalContainer from '../../containers/InputModalContainer';
 import ListItem from '../ListItem';
+import styles from './mainStyles';
+
 import * as firebase from 'firebase';
 import { firebaseConfig } from '../../constants/config';
+
 import store from '../../store';
 const { View, Text } = ReactNative;
 
@@ -20,8 +23,7 @@ const itemsRef = rootRef.child('items');
 const Main = () => (
   <Provider store={store}>
     <View>
-      <ToolBar/> 
-      {/*<ToolBar style={styles.toolBar} />*/}
+      <ToolBar />
       <MottoListContainer itemsRef={itemsRef} />
       <ActionButtonContainer />
       <InputModalContainer itemsRef={itemsRef} />

@@ -4,10 +4,15 @@ export default StyleSheet.create({
   modalHeader: {
     flex: 1,
     height: 30,
-    padding: 10,
+    padding: 40,
     flexDirection: 'row',
     backgroundColor: '#ffc107',
     fontSize: 20,
+  },
+  textInput:{
+    height: 40,
+    padding: 10,
+    color: '#3366FF',
   },
   buttonContainer: {
     flex: 1,

@@ -34,7 +34,7 @@ class MottoList extends Component {
   }
   render() {
     return (
-      <View>
+      <View style={styles.view}>
         <ListView
           style={styles.listView}
           dataSource={this.ds.cloneWithRows(this.props.mottos.toArray())}

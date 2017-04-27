@@ -13,7 +13,7 @@ const InputModal = (props) => (
      <View>
       <View>
         <Text style={styles.modalHeader}>Please Keyin your Motto!</Text>
-        <TextInput
+        <TextInput placeholder="請輸入" style={styles.textInput}
           onChangeText={props.onChangeMottoText}
         />
         <View style={styles.buttonContainer}>      
