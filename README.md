@@ -1,3 +1,5 @@
+[Getting Started](https://facebook.github.io/react-native/docs/getting-started.html)
+
 # General Setup #
 
 若你使用 Mac OS 你可以使用官網安裝方式或是使用 homebrew 安裝
