@@ -37,11 +37,11 @@ watchman 可以監看檔案是否有修改
 
 - Android
     
-    $ react-native run-android
+        $ react-native run-android
 
 - iOS
 
-    $ react-native run-ios
+        $ react-native run-ios
 
 ## References ##
 
